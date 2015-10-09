@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<script>
+    var n = 0;
+    do {
+    	if((Math.random() * 6) < 1) {
+    		alert('Готов !!! Следующий ')
+    		break;
+    	}
+    	n++
+    	if(parseInt(prompt("Ещё ?")) != 1){
+           alert('Трус !');
+           break; 
+    	}
+    } while(true);
+    alert('Продержался '+ n + ' раундa') ;
+    
+</script>
